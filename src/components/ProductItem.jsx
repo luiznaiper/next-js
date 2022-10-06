@@ -13,6 +13,10 @@ const ProductItem = ({ product }) => {
     addToCart(item);
   };
 
+  if (!product.images[0]) {
+    return null;
+  }
+
   return (
     <div className={styles.ProductItem}>
       <Image src={product.images[0]} width={240} height={240} alt={product.title} />

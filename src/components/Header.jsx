@@ -15,7 +15,9 @@ const Header = () => {
   return (
     <>
       <nav className={styles.Nav}>
-        <Image src={menu} alt="menu" className={styles.menu} />
+        <div className={styles.menu}>
+          <Image src={menu} alt="menu" className={styles.menu} />
+        </div>
         <div className={styles['navbar-left']}>
           <Link href="/">
             <a className={styles['nav-logo-a']}>

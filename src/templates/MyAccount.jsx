@@ -10,16 +10,16 @@ const MyAccount = () => {
           <div>
             <label for="name" className="label">
               Name
+              <input className="value">Camila Yokoo</input>
             </label>
-            <p className="value">Camila Yokoo</p>
             <label for="email" className="label">
               Email
+              <input className="value">camilayokoo@gmail.com</input>
             </label>
-            <p className="value">camilayokoo@gmail.com</p>
             <label for="password" className="label">
               Password
+              <input className="value">*********</input>
             </label>
-            <p className="value">*********</p>
           </div>
           <input type="submit" value="Edit" className="secondary-button login-button" />
         </form>

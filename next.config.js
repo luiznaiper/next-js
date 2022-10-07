@@ -5,6 +5,7 @@ const nextConfig = {
   swcMinify: true,
   images: {
     domains: ['api.lorem.space', 'cdn.pixabay.com', 'placeimg.com', 'www.libreriahuequito.com', 'thumbs.dreamstime.com'],
+    unoptimized: true,
   },
 };
 
